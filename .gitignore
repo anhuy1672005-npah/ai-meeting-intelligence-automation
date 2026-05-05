@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Security: Ignore files containing actual API keys
+.env
+.env.production
+.env.local
+
+# Ignore n8n local data directories (If running n8n via Docker/Local)
+.n8n/
+n8n-data/
+node_modules/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
